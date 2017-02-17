@@ -1,0 +1,11 @@
+
+m=[[3,6,7],
+[9,6,4],
+[8,1,2]]
+z=[]
+for x in range (len(m)):
+  v=[]
+  for a in range(len(m[x])):
+    v.append(m[a][x])
+  z.append(v)
+print(z)
